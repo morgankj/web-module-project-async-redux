@@ -1,12 +1,15 @@
+import axios from 'axios';
 import React from 'react';
 import './App.css';
 
-import { API_KEY } from './constants';
+import Navbar from './components/Navbar';
+import TrendingGallery from './components/TrendingGallery';
 
 function App() {
   return (
     <div className="App">
-      Async Redux Project
+      <Navbar />
+      <TrendingGallery />
     </div>
   );
 }
