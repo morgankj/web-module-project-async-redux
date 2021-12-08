@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <p>Enjoy 20 trending gifs from today!</p>
       <TrendingGallery />
     </div>
   );

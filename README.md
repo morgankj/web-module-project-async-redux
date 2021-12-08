@@ -5,7 +5,7 @@ This project allows you to practice the concepts and techniques learned in this 
 ## Introduction
 
 This is the chance to let your skills shine! You have learned _sooo_ much the last month, and now you get to put all of your hard-earned skills to work. Choose an open api ([this list](https://github.com/public-apis/public-apis)). Protip - don't take too long choosing an API. Pick one that looks interesting, and get building.
-- your api: https://vampire-diaries.herokuapp.com/api/episodes?key=null&sortBy=USviewers&sortOrder=DESC
+- your api: https://api.giphy.com/v1/gifs/trending?api_key=${API_KEY}&limit=20
 
 Once you have chosen an API to consume, build an app that makes sense for the data you will be retrieving. Have fun with this. You get to be the creative mind. You get to make all the decisions here. I'm excited to see what you build!
 
@@ -29,14 +29,14 @@ In this project you'll choose an api to consume. You will build an application f
 
 ### Task 2: Minimum Viable Product
 
-- [ ] Build a React Redux app
-- [ ] Fetch data inside an async action creator from an API of your choosing
-- [ ] Add the data from the API to the Redux store
-- [ ] Display the data from the store in a component
-- [ ] _Some_ styling must be applied. It can be basic, but the app must not only use browser default stylings
+- [X] Build a React Redux app
+- [X] Fetch data inside an async action creator from an API of your choosing
+- [X] Add the data from the API to the Redux store
+- [X] Display the data from the store in a component
+- [X] _Some_ styling must be applied. It can be basic, but the app must not only use browser default stylings
 
 ### Submission Format
-- [ ] If this is your first time connecting a submission, authorize your github account within the codegrade assignment.
-- [ ] Connect your fork to Codegrade using the "Connect Git" button.
-- [ ] Find your newly created fork from the list and push your work to main.
-- [ ] Check this video for details: www.youtube.com/watch?v=fC2BO7dI6IQ
+- [X] If this is your first time connecting a submission, authorize your github account within the codegrade assignment.
+- [X] Connect your fork to Codegrade using the "Connect Git" button.
+- [X] Find your newly created fork from the list and push your work to main.
+- [X] Check this video for details: www.youtube.com/watch?v=fC2BO7dI6IQ

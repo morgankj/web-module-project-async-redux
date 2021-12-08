@@ -1,5 +1,8 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
+
+import styled from 'styled-components';
+
 import { getTrendingGifs } from '../actions';
 import TrendingGifCard from './TrendingGifCard';
 
@@ -23,9 +26,9 @@ const TrendingGallery = (props) => {
     }
 
     return (
-        <div id="galleryContainer" >
+        <StyledGalleryContainer id="galleryContainer" >
             {trendingGifs.map(gif => <TrendingGifCard gif={gif} key={gif.id} />)}
-        </div>
+        </StyledGalleryContainer>
     )
 }
 
@@ -38,3 +41,8 @@ const mapStateToProps = state => {
 }
 
 export default connect(mapStateToProps, { getTrendingGifs })(TrendingGallery);
+
+const StyledGalleryContainer = styled.div`
+    display: flex;
+    justify-content: space-around;
+`

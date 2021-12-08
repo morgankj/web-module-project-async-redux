@@ -1,5 +1,7 @@
 import React from 'react';
 
+import styled from 'styled-components';
+
 const TrendingGifCard = ({gif}) => {
     return (
         <div className="gifCard">
@@ -9,3 +11,7 @@ const TrendingGifCard = ({gif}) => {
 };
 
 export default TrendingGifCard;
+
+const StyledTrendingGifCard = styled.div`
+    width: 30%;
+`
