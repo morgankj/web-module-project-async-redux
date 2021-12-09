@@ -6,7 +6,7 @@ import axios from 'axios';
 export const getTrendingGifs = () => {
     return(dispatch) => {
         dispatch(fetchStart);
-        axios.get(`http://dragon-age-api.herokuapp.com/api/v1/characters?perPage=20`)
+        axios.get(`http://dragon-age-api.herokuapp.com/api/v1/characters?perPage=40`)
             .then(res => {
                 dispatch(fetchSuccess(res.data));
             })

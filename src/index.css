@@ -16,16 +16,11 @@ body {
 	font-size:1.6rem;
 	line-height: 1.5;
 	font-family: 'Raleway', sans-serif;
+	background-color: #9D402F;
 }
 
 html, body {
 	height: 100vh;
-}
-
-.wrapper {
-	min-height: 100vh;
-	margin-bottom: -40px;
-	background-color: lightyellow;
 }
 
 .footerBar, .push {
@@ -34,6 +29,5 @@ html, body {
 
 * {
 	text-decoration: none;
-	color: darkred;
 	/* border: solid red 1px; */
 }

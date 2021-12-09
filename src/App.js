@@ -9,7 +9,7 @@ function App() {
   return (
     <StyledApp className="App">
       <Navbar />
-      <h2>See 20 characters from the DragonAge© franchise below!</h2>
+      <h2>See 40 characters from the DragonAge© franchise below!</h2>
       <TrendingGallery />
     </StyledApp>
   );
