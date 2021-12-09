@@ -1,17 +1,25 @@
 import React from 'react';
 import './App.css';
+import styled from 'styled-components';
 
 import Navbar from './components/Navbar';
 import TrendingGallery from './components/TrendingGallery';
 
 function App() {
   return (
-    <div className="App">
+    <StyledApp className="App">
       <Navbar />
-      <p>Enjoy 20 trending gifs from today!</p>
+      <h2>See 20 characters from the DragonAge© franchise below!</h2>
       <TrendingGallery />
-    </div>
+    </StyledApp>
   );
 }
 
 export default App;
+
+const StyledApp = styled.div`
+  h2 {
+    font-size: 2rem;
+    margin: 4%;
+  }
+`

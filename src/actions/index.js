@@ -8,7 +8,6 @@ export const getTrendingGifs = () => {
         dispatch(fetchStart);
         axios.get(`http://dragon-age-api.herokuapp.com/api/v1/characters?perPage=20`)
             .then(res => {
-                console.log(res.data);
                 dispatch(fetchSuccess(res.data));
             })
             .catch(err => {

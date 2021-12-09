@@ -44,7 +44,6 @@ export default connect(mapStateToProps, { getTrendingGifs })(TrendingGallery);
 
 const StyledGalleryContainer = styled.div`
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-    margin: 3% auto;
+    margin: 3%;
 `
