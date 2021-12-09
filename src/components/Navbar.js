@@ -15,6 +15,6 @@ const Navbar = () => {
 export default Navbar;
 
 const StyledNavbar = styled.div`
-display: flex;
+    display: flex;
     background-color: orange;
 `

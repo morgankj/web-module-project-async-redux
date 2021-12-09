@@ -3,14 +3,13 @@ export const FETCH_SUCCESS = "FETCH_SUCCESS";
 export const FETCH_FAIL = "FETCH_FAIL";
 import axios from 'axios';
 
-import { API_KEY } from '../constants';
-
 export const getTrendingGifs = () => {
     return(dispatch) => {
         dispatch(fetchStart);
-        axios.get(`https://api.giphy.com/v1/gifs/trending?api_key=${API_KEY}&limit=20`)
+        axios.get(`http://dragon-age-api.herokuapp.com/api/v1/characters?perPage=20`)
             .then(res => {
-                dispatch(fetchSuccess(res.data.data));
+                console.log(res.data);
+                dispatch(fetchSuccess(res.data));
             })
             .catch(err => {
                 dispatch(fetchFail(err));
